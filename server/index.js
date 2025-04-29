@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "Your_URL",
+    "mongodb+srv://kbtug22447:B5UAuAUJpvjWh1ww@cluster0.zebpxnv.mongodb.net/",
     {dbName: "IMG-Gallery",}
   )
   .then(() => console.log("MongoDB is Connected..!"))
